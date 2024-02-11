@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(114, 7, 114);
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    color: rgb(157, 155, 13);; padding-left: 50px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+    background-color:rgb(115, 0, 128) ;padding-top: 30px;
+    height: 60px;
+}
+#A{
+    position: absolute;
+    top: 33px;
+    right: 65px;
+    font-size: medium;
+    border-radius: 8px;
+    background-color: rgb(165, 165, 26);
+    height: 33px;
+    width: 80px;
+    border: none;
+}
+div {
+    color: darkgoldenrod;
+}
+ul{
+    margin-right: 400px;
+    float: right;
+}
+li{
+    margin-left: 15px;
+    display: inline-block;
+}
+#a{
+    color: aliceblue;
+    text-transform: uppercase;
+    line-height: 0px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#a:hover{
+ color: darkgoldenrod;
+}
+h5{
+    position: relative;
+    top: 60px;
+    word-spacing: 5px;
+    text-transform: uppercase;
+    margin-left: 118px;
+    color: aliceblue;
+    margin-top: 110px;
+}
+h5::before{
+    margin-left:20px ;
+    border-radius: 8px;
+    background-color: rgb(228, 196, 33);
+    left: -80px;
+    top: 5px;
+    position: absolute;
+    content:'';
+    height: 3px;
+    width: 53px;
+}
+p{
+    margin-left: 60px;
+    color: aliceblue;
+    text-decoration-style: solid;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    margin-top: 60px;
+}
+#B{
+margin-bottom: 80px;
+background-color: gold;
+height: 50px;
+width: 150px;
+border-radius: 11px;
+margin-left: 63px;
+position: relative;
+bottom: 50px;
+border: none;
+font-size: larger;
+text-decoration-line: none;
+}
+img{
+    margin-left: 800px;
+    border-radius: 175px;
+    width: 350px;
+    height: 350px;
+    box-shadow: 0px 0px 25px 15px rgb(196, 188, 39);
+}
+p::first-letter{
+    color: goldenrod;
+} 
+#b{
+    position: absolute;
+    top: 230px;
+}
+a{
+    text-decoration-line: none;
+}
+
+
+
